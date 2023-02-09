@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aya2002:
+    image: aya2002
+    build:
+      context: .
+      dockerfile: ./Dockerfile
